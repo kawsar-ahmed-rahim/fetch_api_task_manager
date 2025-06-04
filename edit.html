@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Manager</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main-section">
+        <h1 class="title">Task manager</h1>
+        <section>
+            <form id="edit-task-form">
+                <input type="text" id="task-title" name="task-title"/>
+                <button type="submit">Update</button>
+                 <button id="go-back-btn">Go Back</button>
+            </form>
+        </section>
+        <ul id="tasks">
+
+        </ul>
+    </main>
+ <script src="./edit.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.main-section{
+    width: 50vw;
+    margin:20px auto;
+   
+}
+
+.title{
+    text-align: center;
+}
+
+.single-task{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
