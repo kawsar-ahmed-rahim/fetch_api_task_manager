@@ -1,30 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Manager</title>
+    <link rel="icon" href="./kr.png">
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
->
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <main class="main-section">
-        <h1 class="title">Task manager</h1>
-        <section>
-            <h3 class="title">AddTask</h3>
-            <form id="new-task-form">
-                <input type="text" id="task-title" name="task-title"/>
-                <button type="submit">Add</button>
-            </form>
-        </section>
-        <h3 class="title">Tasks</h3>
-        <ul id="tasks">
-
-        </ul>
+      <h1 class="title">Task manager</h1>
+      <section>
+        <h3 class="title">AddTask</h3>
+        <form id="new-task-form">
+          <input type="text" id="task-title" name="task-title" />
+          <button type="submit">Add</button>
+        </form>
+      </section>
+      <h3 class="title">Tasks</h3>
+      <ul id="tasks"></ul>
     </main>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
